@@ -1,0 +1,144 @@
+@charset "utf-8";
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import url("./normalize.css"); 
+ /* nomalize 태그의 기본속성  */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.container{
+	width: 1120px;
+	margin: 0 auto;
+}
+.header{
+	height: 90px;
+	line-height: 90px;
+	display: flex;
+	justify-content:space-between;
+	font-size: 1.1em;
+}
+ul{
+	list-style: none;
+}
+.main-menu-section1 img{
+	width: 70px;
+    height: 25px;
+}
+.main-menu-section2{
+	width: 310px;
+	padding: 0 350px 0 150dpx;
+	background: pink;
+}
+	
+.main-menu{
+	display: flex;
+	justify-content:space-between;
+}
+
+.main-menu-info{
+	display: inline-block;
+} 
+.main-menu-section3{
+	width: 230px;
+	display: flex;
+	justify-content: space-around;
+}
+.visual{
+	width: 100%;
+	height: 610px;
+	background: powderblue;
+}
+.main-content1::after{
+	content:'';
+	display:table; 
+	clear: both
+}
+/* .title::after{
+	content:'';
+	display:table; 
+	clear: both
+}
+.main-title-1{
+	width: 560px;
+	height: 100px;
+	float: left;
+	padding:75px 0 0 0;	
+	
+}
+h2.main-title-2{
+	width: 560px;
+	height: 100px;
+	float: right;
+	padding: 85px 0 0 0;
+} */
+.main-content1{
+	width: 540px;
+}
+.main-content1::after{
+	content:'';
+	display:table; 
+	clear: both
+}
+.news-title{
+	height: 100px;
+	font-family: sans-serif;
+}
+.main-title-1{
+	font-size: 1.8em;
+	font-family: sans-serif;
+
+}
+.main-content1-lef1{
+	height: 500px;
+	float: left;
+	display: inline-block;
+
+}
+.main-content1-right{
+	height: 500px;
+	float: right;
+	display: inline-block;
+
+}
+.main-content2-bg{
+	width: 100%;
+	height: 150px;
+	background: #f9f9f9;
+}
+.main-content2{
+	font: black;
+	text-decoration-line: none;
+	background: yellowgreen;
+}
+.content2-1{
+	width: 215px;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+}
+.content2-1 h4{
+	font-size: 1.4em;
+}
