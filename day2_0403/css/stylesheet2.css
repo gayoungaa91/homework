@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 @import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 @import url("./normalize.css"); 
  /* nomalize 태그의 기본속성  */
@@ -71,11 +71,7 @@ ul{
 	height: 610px;
 	background: powderblue;
 }
-.main-content1::after{
-	content:'';
-	display:table; 
-	clear: both
-}
+
 /* .title::after{
 	content:'';
 	display:table; 
@@ -95,33 +91,30 @@ h2.main-title-2{
 	padding: 85px 0 0 0;
 } */
 .main-content1{
-	width: 540px;
+	height: 500px;
 }
-.main-content1::after{
-	content:'';
-	display:table; 
-	clear: both
-}
-.news-title{
+
+.news-title-1{
 	height: 100px;
 	font-family: sans-serif;
-}
-.main-title-1{
+	display: flex;
+	align-items: flex-end;
 	font-size: 1.8em;
-	font-family: sans-serif;
+}
+.main-content1{
+     display: inline-block;
+}
+.cotent-sub-news{
+    width: 50%;
 
 }
-.main-content1-lef1{
-	height: 500px;
-	float: left;
-	display: inline-block;
 
-}
-.main-content1-right{
-	height: 500px;
-	float: right;
-	display: inline-block;
+.main-title-2{
+	font-size: 1.1em;
+	color: gray;
+	opacity: 0.8;
 
+	text-align: right;
 }
 .main-content2-bg{
 	width: 100%;
@@ -129,16 +122,19 @@ h2.main-title-2{
 	background: #f9f9f9;
 }
 .main-content2{
-	font: black;
-	text-decoration-line: none;
-	background: yellowgreen;
+
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+	
 }
 .content2-1{
 	width: 215px;
 	float: left;
-	display: flex;
-	justify-content: space-between;
+	color: black;
+	
 }
 .content2-1 h4{
 	font-size: 1.4em;
+	font-weight: 500;
 }
