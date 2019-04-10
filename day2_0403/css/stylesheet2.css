@@ -40,9 +40,7 @@ footer, header, hgroup, menu, nav, section {
 	justify-content:space-between;
 	font-size: 1.1em;
 }
-ul{
-	list-style: none;
-}
+
 .main-menu-section1 img{
 	width: 70px;
     height: 25px;
